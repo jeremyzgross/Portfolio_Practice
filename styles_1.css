@@ -1,0 +1,25 @@
+div{
+    border: solid 2px red;
+}
+.container-fluid{
+    font-size: 20pt; !important
+}
+
+
+.heading-container {
+    display: inline-block;
+}
+
+.styled-hr {
+    border: none;
+    height: 6px;
+    background-color: #0a1239; 
+}
+
+.home-hero__social-icon-link {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
