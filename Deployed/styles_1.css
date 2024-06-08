@@ -1,0 +1,164 @@
+/* General styles */
+
+/* div {
+  border: solid 2px red;
+} */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40; /* Dark gray navbar */
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #f8f9fa; /* Light gray text */
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-hero__social {
+  margin-bottom: 20px;
+}
+
+.home-hero__social-icon-link {
+  width: 3%;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.home-hero__social-icon__linkedin {
+  width: 50px;
+  height: auto;
+  background-color: rgb(34, 88, 181);
+  transition: transform 0.2s;
+}
+.home-hero__social-icon__github {
+  width: 50px;
+  height: auto;
+  background-color: rgb(13, 13, 13);
+  transition: transform 0.2s;
+  border-radius: 25px;
+}
+
+.home-hero__social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Jumbotron styles */
+.bg-dark {
+  background-color: #343a40 !important; /* Dark gray background */
+  color: #f8f9fa !important; /* Light gray text */
+}
+
+.body-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* "About Me" and "Skills" section styles */
+.about-skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 80px; /* Adjust the margin as needed */
+}
+
+.about-section,
+.skills-section {
+  flex: 1;
+  min-width: 200px; /* Adjust as needed for responsive design */
+  margin: 100px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__skill {
+  background-color: #6c757d; /* Gray background */
+  color: #fff; /* White text */
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.heading-container {
+  margin-bottom: 20px;
+}
+
+.styled-hr {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  margin: 20px 0;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #343a40; /* Dark gray background */
+  color: #f8f9fa; /* Light gray text */
+  padding: 40px;
+}
+
+#contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact .heading-sec__main {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact .heading-sec__sub {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#contact .heading-sec__sub a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+#contact .heading-sec__sub a:hover {
+  text-decoration: underline;
+}
