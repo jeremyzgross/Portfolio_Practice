@@ -1,19 +1,14 @@
-/* General styles */
-
-/* div {
-  border: solid 2px red;
-} */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f9fa; /* Light gray background color */
+  background-color: #f8f9fa;
 }
 
 /* Navbar styles */
 .navbar {
-  background-color: #343a40; /* Dark gray navbar */
+  background-color: #343a40;
   box-shadow: 0 4px 6px -6px #222;
 }
 
@@ -24,7 +19,7 @@ body {
 
 .navbar-nav .nav-link {
   font-size: 1rem;
-  color: #f8f9fa; /* Light gray text */
+  color: #f8f9fa;
   transition: color 0.2s;
 }
 
@@ -32,7 +27,6 @@ body {
   color: #007bff;
 }
 
-/* Sidebar styles */
 .sidebar {
   position: fixed;
   top: 50%;
@@ -74,8 +68,8 @@ body {
 
 /* Jumbotron styles */
 .bg-dark {
-  background-color: #343a40 !important; /* Dark gray background */
-  color: #f8f9fa !important; /* Light gray text */
+  background-color: #343a40 !important;
+  color: #f8f9fa !important;
 }
 
 .body-container {
@@ -89,13 +83,13 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 80px; /* Adjust the margin as needed */
+  margin-left: 80px;
 }
 
 .about-section,
 .skills-section {
   flex: 1;
-  min-width: 200px; /* Adjust as needed for responsive design */
+  min-width: 200px;
   margin: 100px;
 }
 
@@ -105,8 +99,8 @@ body {
 }
 
 .skills__skill {
-  background-color: #6c757d; /* Gray background */
-  color: #fff; /* White text */
+  background-color: #6c757d;
+  color: #fff;
   padding: 5px 10px;
   margin: 5px;
   border-radius: 5px;
@@ -131,8 +125,8 @@ body {
 
 /* Contact section styles */
 #contact {
-  background-color: #343a40; /* Dark gray background */
-  color: #f8f9fa; /* Light gray text */
+  background-color: #343a40;
+  color: #f8f9fa;
   padding: 40px;
 }
 
