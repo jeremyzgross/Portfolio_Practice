@@ -110,6 +110,16 @@ body {
   color: #ffffff;
 }
 
+.non-clickable {
+  pointer-events: none;
+  box-shadow: none !important;
+  border-radius: 50px !important;
+}
+
+.btn-primary {
+  border-color: transparent !important;
+}
+
 .heading-container {
   margin-bottom: 20px;
 }
