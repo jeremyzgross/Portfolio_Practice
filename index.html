@@ -484,6 +484,64 @@
             </div>
           </div>
           </div>
+          <!-- Project 5 -->
+           <div class="col">
+            <div class="card h-100">
+              <img
+                src="Assets/Demos/Screenshot 2024-06-27 at 4.32.27 PM.png"
+                class="card-img-top img-fluid"
+                alt="Software Screenshot"
+                style="height: 300px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">To-Do List (Vanilla JS)</h5>
+                <p class="card-text-project-5">
+                  JavaScript practice problem apart of Developers Institute Daily Challenge Series. Basic add, delete and clear functionality. 
+                </p>
+                <br>
+                <div class="d-flex flex-column">
+                  <a
+                    href="https://portfolio-bootstrap-six.vercel.app/"
+                    class="btn btn-primary btn-sm mb-2"
+                    target="_blank"
+                    >Live Demo</a
+                    
+                  >
+                  <div class="d-flex flex-column">
+                    <a
+                      href="https://github.com/diana2granat/hackathon1"
+                      class="btn btn-warning btn-sm mb-2"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                    
+                  </div>
+                  <br>
+                  <div class="tech-used-proj-1 mt-3">
+                  <p class="mb-2">Technology Used:</p>
+                  <div
+                    class="btn btn-primary mb-2 non-clickable"
+                    style="background-color: #EFD81D"
+                  >
+                    JavaScript
+                  </div>
+                  <div
+                    class="btn btn-primary mb-2 non-clickable"
+                    style="background-color: maroon"
+                  >
+                    HTML
+                  </div>
+                  <div
+                    class="btn btn-primary mb-2 non-clickable"
+                    style="background-color: purple"
+                  >
+                    CSS
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
           
           
           
@@ -499,38 +557,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/fullpage.js@3.1.2/dist/fullpage.min.css"
     />
-    <script>
-      window.addEventListener('load', () => {
-      //Estanshiate DOM variables on load
-        const skillsContainer = document.getElementById('skills-container')
-        const skills = skillsContainer.querySelectorAll('.skills__skill')
-
-        skills.forEach((skill) => {
-          // Generate a random color for the skill
-          const randomColor = getRandomColor()
-          skill.dataset.originalColor = randomColor
-          skill.style.backgroundColor = randomColor
-
-          // Event listeners for hover events
-          skill.addEventListener('mouseenter', () => {
-            const randomHoverColor = getRandomColor()
-            skill.style.backgroundColor = randomHoverColor
-          })
-
-          skill.addEventListener('mouseleave', () => {
-            skill.style.backgroundColor = skill.dataset.originalColor
-          })
-        })
-      })
-
-      function getRandomColor() {
-        const letters = '0123456789ABCDEF'
-        let color = '#'
-        for (let i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)]
-        }
-        return color
-      }
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
